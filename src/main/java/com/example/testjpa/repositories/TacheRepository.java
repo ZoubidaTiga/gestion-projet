@@ -1,0 +1,7 @@
+package com.example.testjpa.repositories;
+
+import com.example.testjpa.models.Tache;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TacheRepository extends JpaRepository<Tache, Long> {
+}
